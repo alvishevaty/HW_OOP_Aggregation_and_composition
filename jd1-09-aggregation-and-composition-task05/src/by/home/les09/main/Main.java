@@ -46,7 +46,7 @@ public class Main {
 		TourFirmLogic tourFirmLogic = new TourFirmLogic();
 
 		tourView.printTour(tourFirmLogic.findTour(tourFirmList.get(0), tourView.writeString("tour type"),
-				tourView.writeString("country"), tourView.writeString("transport"), 11));
+				tourView.writeString("country"), tourView.writeString("transport"), tourView.writeDays("days")));
 
 	}
 }
